@@ -26,5 +26,5 @@ class Password:
             password += random.choice(usable_symbols)
         return password
     
-password1 = Password(16, is_number = True)
-print(password1.generate_password())
+#password1 = Password(16, is_number = True)
+#print(password1.generate_password())
